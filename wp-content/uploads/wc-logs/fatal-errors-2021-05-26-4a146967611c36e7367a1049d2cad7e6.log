@@ -1,0 +1,32 @@
+2021-05-26T01:32:54+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\laurashop\wp-content\plugins\woocommerce\includes\emails\class-wc-email.php:310
+Stack trace:
+#0 C:\xampp\htdocs\laurashop\wp-content\plugins\woocommerce\includes\emails\class-wc-email.php(310): str_replace(Array, Array, Array)
+#1 C:\xampp\htdocs\laurashop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\MerchantEmailNotifications\NotificationEmail.php(138): WC_Email->format_string(Array)
+#2 C:\xampp\htdocs\laurashop\wp-content\plugins\woocommerce\includes\emails\class-wc-email.php(541): Automattic\WooCommerce\Admin\Notes\MerchantEmailNotifications\NotificationEmail->get_content_html()
+#3 C:\xampp\htdocs\laurashop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\MerchantEmailNotifications\NotificationEmail.php(202): WC_Email->get_content()
+#4 C:\xampp\htdocs\laurashop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\MerchantEmailNotifications\MerchantEmailNotifications.php(102): Automattic\WooCommerce\Admin\Notes\MerchantEmailNotifications\NotificationEmail->trigger('yidjabazie@gmai...', 'lauraadmin2.0')
+#5 C:\xampp\htdocs\laurashop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\MerchantEmailNotifications\MerchantEmailNotifications.php(82): Automattic\WooCommerce\Admin\Notes\MerchantEmailNotifications\MerchantEmailNotifications::send_merchant_notification(Object(Automattic\WooCommerce\Admin\Notes\Note))
+#6 C:\xampp\htdocs\laurashop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(105): Automattic\WooCommerce\Admin\Notes\MerchantEmailNotifications\MerchantEmailNotifications::run()
+#7 C:\xampp\htdocs\laurashop\wp-includes\class-wp-hook.php(292): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#8 C:\xampp\htdocs\laurashop\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\laurashop\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\laurashop\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#11 {main}
+  thrown dans C:\xampp\htdocs\laurashop\wp-content\plugins\woocommerce\includes\emails\class-wc-email.php à la ligne 310
+
+2021-05-26T01:34:03+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\laurashop\wp-content\plugins\woocommerce\includes\emails\class-wc-email.php:310
+Stack trace:
+#0 C:\xampp\htdocs\laurashop\wp-content\plugins\woocommerce\includes\emails\class-wc-email.php(310): str_replace(Array, Array, Array)
+#1 C:\xampp\htdocs\laurashop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\MerchantEmailNotifications\NotificationEmail.php(138): WC_Email->format_string(Array)
+#2 C:\xampp\htdocs\laurashop\wp-content\plugins\woocommerce\includes\emails\class-wc-email.php(541): Automattic\WooCommerce\Admin\Notes\MerchantEmailNotifications\NotificationEmail->get_content_html()
+#3 C:\xampp\htdocs\laurashop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\MerchantEmailNotifications\NotificationEmail.php(202): WC_Email->get_content()
+#4 C:\xampp\htdocs\laurashop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\MerchantEmailNotifications\MerchantEmailNotifications.php(102): Automattic\WooCommerce\Admin\Notes\MerchantEmailNotifications\NotificationEmail->trigger('yidjabazie@gmai...', 'lauraadmin2.0')
+#5 C:\xampp\htdocs\laurashop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\MerchantEmailNotifications\MerchantEmailNotifications.php(82): Automattic\WooCommerce\Admin\Notes\MerchantEmailNotifications\MerchantEmailNotifications::send_merchant_notification(Object(Automattic\WooCommerce\Admin\Notes\Note))
+#6 C:\xampp\htdocs\laurashop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(105): Automattic\WooCommerce\Admin\Notes\MerchantEmailNotifications\MerchantEmailNotifications::run()
+#7 C:\xampp\htdocs\laurashop\wp-includes\class-wp-hook.php(292): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#8 C:\xampp\htdocs\laurashop\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\laurashop\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\laurashop\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#11 {main}
+  thrown dans C:\xampp\htdocs\laurashop\wp-content\plugins\woocommerce\includes\emails\class-wc-email.php à la ligne 310
+
